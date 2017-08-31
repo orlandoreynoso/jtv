@@ -1711,9 +1711,12 @@ footer {
 .tc-iconos .tci-evento span:nth-child(1) {
   margin-bottom: 3px; }
 
-.cboletines {
-  background-color: red;
+.con-general .con .interiores .m-comunidades .cboletines {
   width: 100%; }
+  .con-general .con .interiores .m-comunidades .cboletines .todo .ir-agrupacion .thumb {
+    width: 100%; }
+    .con-general .con .interiores .m-comunidades .cboletines .todo .ir-agrupacion .thumb img {
+      width: 100%; }
 
 .navigation {
   background-color: #33b147;

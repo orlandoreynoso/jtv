@@ -7,7 +7,6 @@ Imprimiendo contenido específico para los boletines.
 */
 
 $variable = get_the_ID();
-echo $variable;
 
 function get_pastorales($pagina, $perpage){
     $args = array(
@@ -33,7 +32,7 @@ function get_pastorales($pagina, $perpage){
         <div class="thumb img-responsive" >
           <?php
           if(has_post_thumbnail()){
-           the_post_thumbnail('medium');
+           the_post_thumbnail('full');
           }
           else{ ?>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dar-la-vida-por-los-demas.jpg" alt="">
