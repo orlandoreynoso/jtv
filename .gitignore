@@ -1,0 +1,13 @@
+# Incluir expresamente en el repositorio todos los ficheros con extensión php
+#no incluir esta carpeta
+/node_modules
+#no incluis este archivo
+package.json
+package-lock.json
+#no incluir el js.
+package.json
+#no inclir php work.
+noworkfile.php
+#logo-web-2018
+/images/logo-web-2018.psd
+/images/fondo-acuarela.psd

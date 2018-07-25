@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Portada
+Template Name: Front-page
 Template Post Type: post, page, product
  */
 ?>
