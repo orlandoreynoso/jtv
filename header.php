@@ -29,6 +29,7 @@ include get_template_directory().'/libs/headermeta.php';
 				</div>					
 			</div>
 		</div>
-	</div>		
+	</div>
+	<?php include (TEMPLATEPATH . '/libs/menu.php'); ?>		
 </div>
 </div>

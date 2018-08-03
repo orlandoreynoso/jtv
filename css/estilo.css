@@ -208,7 +208,7 @@ header {
         background-color: #ffffff; }
 
 .e-menu {
-  background-color: #0e3655;
+  background-color: #ffffff;
   width: 100%; }
   .e-menu .row {
     padding: 0px;
@@ -318,7 +318,15 @@ input[type=number]::-webkit-outer-spin-button {
   padding: 0px;
   box-sizing: border-box;
   overflow: hidden;
-  background-color: #ffffff; }
+  background-color: #061f5f; }
+  .slide .estilos_banner {
+    background: #ffffff;
+    padding: 0px 0px;
+    box-sizing: border-box; }
+    .slide .estilos_banner .slidermeta {
+      padding: 0px;
+      border-top: 8px solid #cc0001;
+      border-bottom: 8px solid #cc0001; }
   .slide .metaslider {
     box-sizing: border-box;
     margin: 0px auto;
@@ -326,6 +334,17 @@ input[type=number]::-webkit-outer-spin-button {
     min-height: 100%;
     max-width: 100%;
     min-width: 100%; }
+    .slide .metaslider .flexslider .flex-control-nav {
+      background-color: #ffffff;
+      width: 100%;
+      height: 40px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      box-sizing: border-box;
+      bottom: -40px; }
   .slide .soliloquy-container {
     width: 100%;
     margin: 0px auto; }
@@ -685,6 +704,94 @@ input[type=number]::-webkit-outer-spin-button {
         border-bottom: 1px solid #e9e9e9; }
 
 /*=================== Secciones jesustv ==================================== */
+.con-secciones {
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .con-secciones .stream {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .con-secciones .stream iframe {
+      width: 90%;
+      margin: 0px auto;
+      text-align: center; }
+  .con-secciones .padre-santoral {
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 20px; }
+    .con-secciones .padre-santoral .div2,
+    .con-secciones .padre-santoral .div4 {
+      box-sizing: border-box;
+      display: block;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      width: 100%; }
+      .con-secciones .padre-santoral .div2 .li1, .con-secciones .padre-santoral .div2 .li2, .con-secciones .padre-santoral .div2 .li3, .con-secciones .padre-santoral .div2 .li4,
+      .con-secciones .padre-santoral .div4 .li1,
+      .con-secciones .padre-santoral .div4 .li2,
+      .con-secciones .padre-santoral .div4 .li3,
+      .con-secciones .padre-santoral .div4 .li4 {
+        box-sizing: border-box;
+        padding-top: 125px;
+        padding-bottom: 15px;
+        display: block;
+        border-radius: 5px;
+        height: 100%;
+        width: auto;
+        text-align: left;
+        padding-left: 20px;
+        color: #fdde11;
+        font-weight: bold;
+        text-decoration: none;
+        text-shadow: 0px 1px 1px black; }
+        .con-secciones .padre-santoral .div2 .li1:hover, .con-secciones .padre-santoral .div2 .li2:hover, .con-secciones .padre-santoral .div2 .li3:hover, .con-secciones .padre-santoral .div2 .li4:hover,
+        .con-secciones .padre-santoral .div4 .li1:hover,
+        .con-secciones .padre-santoral .div4 .li2:hover,
+        .con-secciones .padre-santoral .div4 .li3:hover,
+        .con-secciones .padre-santoral .div4 .li4:hover {
+          color: #ffffff;
+          text-shadow: 0px 1px 1px black;
+          filter: alpha(opacity=60);
+          -moz-opacity: 1;
+          opacity: 0.6;
+          -khml-opacity: 1;
+          transition: 0.5s ease; }
+      .con-secciones .padre-santoral .div2 .li1,
+      .con-secciones .padre-santoral .div4 .li1 {
+        background-image: url("../images/tv-en-linea.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 5px; }
+      .con-secciones .padre-santoral .div2 .li2,
+      .con-secciones .padre-santoral .div4 .li2 {
+        background-image: url("../images/padre-hugo.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%; }
+      .con-secciones .padre-santoral .div2 .li3,
+      .con-secciones .padre-santoral .div4 .li3 {
+        background-image: url("../images/googleplay.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%; }
+      .con-secciones .padre-santoral .div2 .li4,
+      .con-secciones .padre-santoral .div4 .li4 {
+        background-image: url("../images/santo-del-mes.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%; }
+
 .secciones-jtv .c-info {
   background-color: #ffffff;
   min-height: 50px;
